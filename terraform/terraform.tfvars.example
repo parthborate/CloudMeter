@@ -1,0 +1,3 @@
+alert_email       = "ur-email-id@gmail.com"
+slack_webhook_url = ""
+budget_limit      = 10

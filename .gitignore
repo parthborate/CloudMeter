@@ -1,0 +1,42 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Terraform — CRITICAL: these contain secrets
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+terraform/lambda.zip
+terraform/builds/
+
+# AWS credentials
+.aws/
+credentials
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sensitive — generated files
+gen_url.py
+response.json
+cors.json
+
+# Lambda build artifacts
+lambda/__pycache__/
